@@ -13,6 +13,7 @@ window.addEventListener("load", function () {
         let list = document.getElementById("faultyItems");
         console.log(pilot.value)
         formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel)
+        event.preventDefault();
     });
     
 
